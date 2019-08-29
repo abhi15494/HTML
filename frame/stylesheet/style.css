@@ -1,0 +1,10 @@
+.framebox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc( 100vh - 75px );
+}
+.framebox iframe {
+    flex: 1 0 50%;
+    height: 33.33%;
+}
